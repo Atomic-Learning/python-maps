@@ -1,22 +1,21 @@
 {
-    "title": "",
-    "slug": "",
-    "description": "",
+    "title": "Python: Maps",
+    "slug": "python-maps",
+    "description": "Introduces maps in Python, showing how they reference a function and an iterable. Also shows how they can be used to create a list, or looped over.",
     "authors": [
-        "",
-        ""
+        "chris-cooling"
     ],
     "tags": [
-        "",
-        ""
+        "python"
     ],
-    "duration": 0,
+    "duration": 4,
     "prerequisites": [
-        "",
-        ""
+        "python-lists-introduction",
+        "programming-calling-functions",
+        "python-defining-functions",
+        "python-for-loops-over-iterables",
+        "programming-iterables"
     ],
     "related": [
-        "",
-        ""
     ]
 }
