@@ -8,7 +8,7 @@
     "tags": [
         "python"
     ],
-    "duration": 4,
+    "duration": 6,
     "prerequisites": [
         "python-lists-introduction",
         "programming-calling-functions",

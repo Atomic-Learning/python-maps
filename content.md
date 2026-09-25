@@ -48,3 +48,20 @@ print(squared_numbers_list)
 ```
 
 If you want to apply a function to every entry in an iterable and immediately get a list of the results, using `map()` in combination with `list()` is a convenient and efficient approach.
+
+# Single Use
+
+If a map is used twice in a row, the second iteration will not produce any results because the map object is exhausted after the first iteration. For example:
+
+```py-cell
+def square(x):
+    return x * x
+numbers = [1, 2, 3, 4, 5]
+squared_numbers = map(square, numbers)
+
+# This will print the results of the first iteration
+print(list(squared_numbers))
+
+# This will print an empty list because the map is exhausted
+print(list(squared_numbers))  
+```
