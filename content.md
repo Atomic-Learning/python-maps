@@ -47,7 +47,7 @@ squared_numbers_list = list(squared_numbers)
 print(squared_numbers_list)
 ```
 
-If you want to apply a function to every entry in an iterable and immediately get a list of the results, using `map()` in combination with `list()` is a convenient and efficient approach.
+If you want to apply a function to every entry in an iterable and immediately get a list of the results, using `map()` in combination with `list()` is convenient and is significantly more efficient than writing an explicit `for` loop to build the list manually.
 
 # Single Use
 
