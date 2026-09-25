@@ -23,7 +23,12 @@ Note that the `map`{.python} object does not calculate the results immediately.
 We can iterate over a map object using a `for` loop, just like any other iterable. For example:
 
 ```py-cell
-# Make sure to the run the first cell on the page first
+def square(x):
+    return x * x
+numbers = [1, 2, 3, 4, 5]
+squared_numbers = map(square, numbers)
+
+
 for num in squared_numbers:
     print(num)
 ```
@@ -33,7 +38,11 @@ for num in squared_numbers:
 You can create a list from a map object by passing it to the `list()`{.python} function. For example:
 
 ```py-cell
-# Make sure to the run the first cell on the page first
+def square(x):
+    return x * x
+numbers = [1, 2, 3, 4, 5]
+squared_numbers = map(square, numbers)
+
 squared_numbers_list = list(squared_numbers)
 print(squared_numbers_list)
 ```
